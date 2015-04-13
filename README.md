@@ -88,7 +88,7 @@ $ fortune 25% chinese 25% fortunes 25% tang300  25% song100
 
 ## How to automatically launch fortune when opening a shell window
 
-Writing into the following lines at the end of your `~/.bashrc` or `~/.zshrc` file, depending on which shell you use.
+Depending on which shell you use, at the end of your `~/.bashrc` or `~/.zshrc` file, copy the following lines into it.
 
 ```bash
 echo
