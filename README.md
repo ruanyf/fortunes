@@ -9,12 +9,16 @@ $ fortune
   ~Unknown
 ```
 
-This repo contains some fortune database files.
+This repo contains some fortune database files, especially useful for Chinese user.
 
 - fortunes: quotes in English, 5472 items
 - chinese: quotes in Chinese, 25919 items
 - tang300: poems of Tang Dynasty in Chinese, 313 items
 - song100: poems of Song Dynasty in Chinese, 95 items
+
+## Screenshot
+
+![](./screenshot.png)
 
 ## Install
 
