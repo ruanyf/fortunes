@@ -86,6 +86,20 @@ $ fortune -e chinese fortunes tang300 song100
 $ fortune 25% chinese 25% fortunes 25% tang300  25% song100
 ```
 
+## How to automatically launch fortune when opening a shell window
+
+Writing into the following lines at the end of your `~/.bashrc` or `~/.zshrc` file, depending on which shell you use.
+
+```bash
+echo
+echo "=============== Quote Of The Day ==============="
+echo
+fortune
+echo
+echo "================================================"
+echo
+```
+
 ## How to make your own fortune database file
 
 (1) Write your fortune items into a file.
