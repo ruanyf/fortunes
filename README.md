@@ -34,7 +34,7 @@ Then install the repo.
 
 ```bash
 $ git clone git@github.com:ruanyf/fortunes.git
-$ sudo mv fortunes/* /usr/share/games/fortunes/
+$ sudo mv fortunes/data/* /usr/share/games/fortunes/
 ```
 
 ## Usage
