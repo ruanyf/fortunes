@@ -22,18 +22,29 @@ This repo contains some fortune database files, especially useful for Chinese us
 
 ## Install
 
-First install [fortune package](http://linux.die.net/man/6/fortune). If you have already installed it, skip this step. The following is how to do it in Debian/Ubuntu.
+First install [fortune package](http://linux.die.net/man/6/fortune). If your computer has already installed it, skip this step.
 
 ```bash
+# Debian/Ubuntu
 $ sudo apt-get install fortune
-# or
-$ sudo apt-get install fortune-mod
+
+# Mac
+$ brew install fortune
 ```
 
 Then install the repo.
 
 ```bash
+# Debian/Ubuntu
 $ git clone git@github.com:ruanyf/fortunes.git
+$ sudo mv fortunes/data/* /usr/share/games/fortunes/
+
+# Mac
+$ git clone git@github.com:ruanyf/fortunes.git
+$ strfile fortunes/data/fortunes
+$ strfile fortunes/data/chinese
+$ strfile fortunes/data/tang300
+$ strfile fortunes/data/song100
 $ sudo mv fortunes/data/* /usr/share/games/fortunes/
 ```
 
