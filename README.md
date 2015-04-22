@@ -45,7 +45,7 @@ $ strfile fortunes/data/fortunes
 $ strfile fortunes/data/chinese
 $ strfile fortunes/data/tang300
 $ strfile fortunes/data/song100
-$ sudo mv fortunes/data/* /usr/share/games/fortunes/
+$ sudo mv fortunes/data/* /usr/local/share/games/fortunes/
 ```
 
 ## Usage
