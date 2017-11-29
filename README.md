@@ -15,6 +15,7 @@ This repo contains some fortune database files, especially useful for Chinese us
 - chinese: quotes in Chinese, 25919 items
 - tang300: poems of Tang Dynasty in Chinese, 313 items
 - song100: poems of Song Dynasty in Chinese, 95 items
+- diet: diet proverbs in Chinese, 123 items
 
 ## Screenshot
 
